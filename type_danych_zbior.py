@@ -18,3 +18,4 @@ print(zbior & zbior_2)  # czesc wspolna
 print(zbior - zbior_2)
 print(zbior.difference(zbior_2))
 print(zbior_2.difference(zbior))
+empty = set()  # pusty set
