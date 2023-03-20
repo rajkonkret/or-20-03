@@ -25,7 +25,7 @@ print(c)
 
 tuple_1 = ("Tomek", "ASia", "Marek", "Paulina")
 
-imie_1, *imie_2, imie_3 = tuple_1  # rozpakowanie tupli
+*imie_1, imie_2, imie_3 = tuple_1  # rozpakowanie tupli
 print(imie_1)
 print(imie_2)
 print(imie_3)
