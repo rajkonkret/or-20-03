@@ -33,10 +33,12 @@ rabacik = 25 if suma_zam > 100 else 0
 print("Rabacik 2", rabacik)
 
 lista_bledow = []
-alert_system = 'email'
-alert_system = input("Podaj alert system(email,console)")
-error = 'critical'
+# alert_system = 'email'
+alert_system = input("Podaj alert system(email, console)")
+# error = 'inny'
+error = input("Podaj typ alerty (medium,  critical, inny)")
 error_message = 'Stało sie coś strasznego'
+
 if alert_system == 'console':
     print(error_message)
 elif alert_system == 'email':
@@ -51,3 +53,7 @@ print(lista_bledow)
 """
 wielolinijkowo
 """
+if True:
+    pass
+
+print("Dalej")
