@@ -4,6 +4,7 @@ b = 7
 
 
 # definicja funkcji bezargumentowej
+# te funkcje nic nie zwracaja po wykonaniu
 def dodaj():
     print(a + b)
 
