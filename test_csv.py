@@ -13,7 +13,8 @@ fields = ['name', 'branch', 'year', 'cgpa']
 # 'Radek', 'CEO', '3', '9.1'
 my_row_list = [
     {'branch': 'COE', 'cgpa': '9.1', 'name': 'Radek', 'year': '2'},
-    {'branch': 'COS', 'cgpa': '9', 'name': 'Tola', 'year': '7'}
+    {'branch': 'COS', 'cgpa': '9', 'name': 'Tola', 'year': '7'},
+    {'branch': 'COS', 'cgpa': '8.8', 'name': 'Zenek', 'year': '5'}
 ]
 
 file = 'records.csv'

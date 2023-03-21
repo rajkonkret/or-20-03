@@ -13,6 +13,7 @@ with open(filename, 'r') as csv_f:
     for row in csvreader:
         rows.append(row)
     print("Liczba wierszy", csvreader.line_num)
+iter(csvreader)
 
 # print(csvreader) - przykład obiektu jaki dostajemy z biblioteki
 print(fields)
