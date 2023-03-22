@@ -18,7 +18,7 @@ def odejmij(a, b, c=0):
 
 
 # wywołnie funkcji
-dodaj()
+print(dodaj())  # funkcja nic nie zwraca, dostajemy None
 dodaj_2(5, 4)
 odejmij(1, 2)
 odejmij(1, 2, 3)
