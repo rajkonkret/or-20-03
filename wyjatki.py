@@ -6,7 +6,7 @@ def dzielenie(a, b):
         print("Nie dziel przez zero")
     except TypeError:
         print("Bład typu")
-    except Exception as e:
+    except Exception as e:  # jako grupa
         print("Inny bład")
     else:   # zadziala, gdy metoda nie mam returna
         print("Nie ma")
