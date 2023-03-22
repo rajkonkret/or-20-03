@@ -12,3 +12,9 @@ print(table)
 print(table['rates'])
 print(table['rates'][0])
 print(table['rates'][0]['mid'])
+
+# NumPy
+# Pandas - excel
+# matplotlib - wykresy
+# Qt, Tkinter
+# sqlite
