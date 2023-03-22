@@ -1,5 +1,9 @@
 # definicja funkcji nie wykonuje funkcji
 # funkcja kantor zwracajaca funkcje do przelicznia konkretnej waluty
+
+kurs_eur = 4.69
+
+
 def kantor(waluta):
     print("Uruchomienie kantoru")
 
@@ -8,8 +12,8 @@ def kantor(waluta):
         print(4.35 * kwota)
 
     def eur(kwota):
-        print("Przeliczam eur, kurs 4.69")
-        print(4.69 * kwota)
+        print("Przeliczam eur, kurs", kurs_eur)
+        print(kurs_eur * kwota)
 
     if waluta.upper() == "USD":
         return usd
