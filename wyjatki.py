@@ -1,13 +1,14 @@
 def dzielenie(a, b):
     try:
-        return a / b
+        # return a / b
+        print(a / b)
     except ZeroDivisionError:
         print("Nie dziel przez zero")
     except TypeError:
         print("Bład typu")
     except Exception as e:
         print("Inny bład")
-    else:
+    else:   # zadziala, gdy metoda nie mam returna
         print("Nie ma")
     finally:
         print("Zawsze")
