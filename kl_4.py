@@ -13,7 +13,7 @@ class Ptak(ABC):
     def lataj(self):
         print("Tu", self.gatunek, "Lece z szybkoscia", self.szybkosc)
 
-    @abstractmethod     # metoda abstrakcyjna - nie mozna wywołac bez nadpisania w klasach dziedziczacych
+    @abstractmethod  # metoda abstrakcyjna - nie mozna wywołac bez nadpisania w klasach dziedziczacych
     def wydaj_odglos(self):
         pass
 
@@ -43,6 +43,7 @@ class Kura(Ptak):
         print("kokokokok")
 
 
+# jezeli klasa ma metode abstrakcyjna, nie da sie utworzyc obiektu z tej klasy
 # orzel = Ptak("orzel", 10)
 # orzel.wydaj_odglos()
 # orzel.lataj()
